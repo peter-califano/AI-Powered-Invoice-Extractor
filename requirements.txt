@@ -1,0 +1,7 @@
+openai
+pdf2image
+requests
+pandas
+openpyxl
+logging
+

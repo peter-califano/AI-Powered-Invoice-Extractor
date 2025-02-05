@@ -1,0 +1,13 @@
+[
+    {
+        "location": "BR",
+        "usage_start_date": "12-20",
+        "usage_end_date": "01-20",
+        "energy_type": "Electricity",
+        "energy_volume": 176400.0,
+        "energy_units": "kwh",
+        "cost_amount": 14725.94,
+        "currency": "BRL",
+        "invoice": "Conta de Energia El\u00e9trica"
+    }
+]

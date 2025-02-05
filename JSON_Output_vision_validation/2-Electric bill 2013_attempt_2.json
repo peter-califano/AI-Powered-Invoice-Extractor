@@ -1,0 +1,13 @@
+[
+    {
+        "location": "BR",
+        "usage_start_date": "12-31",
+        "usage_end_date": "01-31",
+        "energy_type": "Electricity",
+        "energy_volume": 2431.21,
+        "energy_units": "kWh",
+        "cost_amount": 14715.94,
+        "currency": "BRL",
+        "invoice": "CPFL Energia"
+    }
+]

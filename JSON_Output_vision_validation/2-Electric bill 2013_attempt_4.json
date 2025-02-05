@@ -1,0 +1,13 @@
+[
+    {
+        "location": "BR",
+        "usage_start_date": "12-31",
+        "usage_end_date": "01-31",
+        "energy_type": "Electricity",
+        "energy_volume": 298920,
+        "energy_units": "kwh",
+        "cost_amount": 14925.94,
+        "currency": "BRL",
+        "invoice": "Companhia Paulista de For\u00e7a e Luz - CPFL Energia"
+    }
+]

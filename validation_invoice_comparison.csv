@@ -1,0 +1,6 @@
+invoice,energy_type,location_1,usage_start_date_1,usage_end_date_1,energy_volume_1,energy_units_1,cost_amount_1,currency_1,location_2,usage_start_date_2,usage_end_date_2,energy_volume_2,energy_units_2,cost_amount_2,currency_2,location_3,usage_start_date_3,usage_end_date_3,energy_volume_3,energy_units_3,cost_amount_3,currency_3,location_4,usage_start_date_4,usage_end_date_4,energy_volume_4,energy_units_4,cost_amount_4,currency_4
+1-electric bill 2013,electricity,us,05-16,06-15,529264.0,kwh,60057.18,usd,us,05-16,06-15,529264.0,kwh,60571.18,usd,us,05-12,06-11,1018740.0,kwh,60057.18,usd,us,05-14,06-11,1616873.0,kwh,60057.18,usd
+1-fuel bill 2013,electricity,us,03-27,04-25,2860.0,kwh,627.05,usd,us,03-27,04-25,2860.0,kwh,627.05,usd,us,03-27,04-25,2860.0,kwh,627.05,usd,us,03-27,04-25,2860.0,kwh,627.05,usd
+1-fuel bill 2013,natural gas,us,03-27,04-25,14.0,ccf,150.35,usd,us,03-27,04-25,14.0,ccf,150.35,usd,us,03-27,04-25,14.0,ccf,150.35,usd,us,03-27,04-25,14.0,ccf,150.35,usd
+2-electric bill 2013,electricity,br,12-31,01-31,287235.0,kwh,14725.94,brl,br,12-31,01-31,2431.21,kwh,14715.94,brl,br,12-20,01-20,176400.0,kwh,14725.94,brl,br,12-31,01-31,298920.0,kwh,14925.94,brl
+2-fuel bill 2013,diesel,it,n/a,n/a,2000.0,lt,3257.4,eur,it,n/a,n/a,2000.0,lt,3257.4,eur,it,n/a,n/a,2000.0,lt,3257.4,eur,it,n/a,n/a,2000.0,lt,3257.4,eur

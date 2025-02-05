@@ -1,0 +1,24 @@
+[
+    {
+        "location": "US",
+        "usage_start_date": "03-27",
+        "usage_end_date": "04-25",
+        "energy_type": "Electricity",
+        "energy_volume": 2860,
+        "energy_units": "kwh",
+        "cost_amount": 627.05,
+        "currency": "USD",
+        "invoice": "Your Energy Bill"
+    },
+    {
+        "location": "US",
+        "usage_start_date": "03-27",
+        "usage_end_date": "04-25",
+        "energy_type": "Natural Gas",
+        "energy_volume": 14,
+        "energy_units": "ccf",
+        "cost_amount": 150.35,
+        "currency": "USD",
+        "invoice": "Your Energy Bill"
+    }
+]

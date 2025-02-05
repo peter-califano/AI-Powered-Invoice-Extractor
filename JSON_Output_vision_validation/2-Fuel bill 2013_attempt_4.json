@@ -1,0 +1,13 @@
+[
+    {
+        "location": "IT",
+        "usage_start_date": "N/A",
+        "usage_end_date": "N/A",
+        "energy_type": "Diesel",
+        "energy_volume": 2000.0,
+        "energy_units": "lt",
+        "cost_amount": 3257.4,
+        "currency": "EUR",
+        "invoice": "TD24"
+    }
+]

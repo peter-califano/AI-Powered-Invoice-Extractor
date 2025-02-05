@@ -1,0 +1,13 @@
+[
+    {
+        "location": "US",
+        "usage_start_date": "05-12",
+        "usage_end_date": "06-11",
+        "energy_type": "Electricity",
+        "energy_volume": 1018740,
+        "energy_units": "kwh",
+        "cost_amount": 60057.18,
+        "currency": "USD",
+        "invoice": "We Energies"
+    }
+]
