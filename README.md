@@ -21,7 +21,7 @@ The pipeline consists of four main steps, each handled by a separate Python scri
   - **Usage period** (start and end dates)
   - **Energy type** (Electricity, Natural Gas, etc.)
   - **Energy volume** (in kWh, CCF, MMBtu, etc.)
-  - **Cost amount** (excluding taxes and fees)
+  - **Cost amount** 
   - **Currency**
 - Runs multiple attempts (4 times per invoice) for validation.
 - Saves structured **JSON outputs** in `JSON_Output_vision_validation` folder.
