@@ -33,7 +33,6 @@ The pipeline consists of four main steps, each handled by a separate Python scri
 - Saves two output files:
   1. **`validation_invoice_comparison.csv`** – Detailed comparison of multiple AI extraction attempts.
   2. **`validation_merged_invoices.xlsx`** – Final consolidated invoice data, with inconsistencies highlighted in **red**.
-- Outputs: A structured **Excel file** for manual review.
 
 ---
 
