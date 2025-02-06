@@ -16,7 +16,7 @@ The pipeline consists of four main steps, each handled by a separate Python scri
 - Uses the **Imgur API** to upload the converted images.
 - Outputs: A **JSON cache file** (`imgur_uploads.json`) mapping invoice images to their respective **Imgur URLs**.
 
-### **3️⃣ Extract Invoice Data Using ChatGPT (`openai_invoice_processing.py`)**
+### **2️⃣ Extract Invoice Data Using ChatGPT (`openai_invoice_processing.py`)**
 - Uses **GPT-4 Vision** to analyze invoice images and extract key details, including:
   - **Usage period** (start and end dates)
   - **Energy type** (Electricity, Natural Gas, etc.)
@@ -27,7 +27,7 @@ The pipeline consists of four main steps, each handled by a separate Python scri
 - Saves structured **JSON outputs** in `JSON_Output_vision_validation` folder.
 - Outputs: JSON files containing extracted invoice data.
 
-### **4️⃣ Convert JSON Data to Excel (`json_to_csv.py`)**
+### **3️⃣ Convert JSON Data to Excel (`json_to_csv.py`)**
 - Reads the **multiple JSON outputs** from ChatGPT.
 - Compares extracted data from different attempts to check for inconsistencies.
 - Saves two output files:
