@@ -10,15 +10,11 @@ This project automates the extraction of key data from scanned invoices using **
 ## **Project Workflow**
 The pipeline consists of four main steps, each handled by a separate Python script.
 
-### **1️⃣ Convert PDFs to Images (`pdf2image-imgur-upload.py`)**
+### **1️⃣ Convert PDFs to Images + Upload Images to Imgur(`pdf2image-imgur-upload.py`)**
 - Uses the `pdf2image` library to convert multi-page invoices into individual image files.
-- Saves these images in a **temporary folder**.
 - Outputs: PNG images for each invoice page.
-
-### **2️⃣ Upload Images to Imgur (`pdf2image-imgur-upload.py`)**
 - Uses the **Imgur API** to upload the converted images.
-- Stores the uploaded image URLs in a **JSON cache file** (`imgur_uploads.json`) to avoid duplicate uploads.
-- Outputs: A JSON file mapping invoice images to their respective **Imgur URLs**.
+- Outputs: A **JSON cache file** (`imgur_uploads.json`) mapping invoice images to their respective **Imgur URLs**.
 
 ### **3️⃣ Extract Invoice Data Using ChatGPT (`openai_invoice_processing.py`)**
 - Uses **GPT-4 Vision** to analyze invoice images and extract key details, including:
